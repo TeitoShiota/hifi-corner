@@ -1,4 +1,6 @@
 export default function About() {
+
+    console.log("About page loaded");
     return (
         <main>
             <h1>About</h1>
