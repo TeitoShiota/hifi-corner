@@ -2,6 +2,10 @@
 import type { Metadata } from "next"; // Import React and Next.js types.
 import { Open_Sans } from "next/font/google"; // Import google font types from Next.js.
 
+// containers
+import Header from "@/containers/Header";
+
+
 // Style imports
 import "@/styles/globals.scss"; // Import the global styles for the app.
 
@@ -22,6 +26,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body className={openSans.className}>
+                <Header />
                 {children}
             </body>
         </html>
