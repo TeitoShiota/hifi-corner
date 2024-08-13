@@ -4,6 +4,7 @@ import { Open_Sans } from "next/font/google"; // Import google font types from N
 
 // containers
 import Header from "@/containers/Header";
+import Footer from "@/containers/Footer";
 
 
 // Style imports
@@ -28,6 +29,7 @@ export default function RootLayout({
             <body className={openSans.className}>
                 <Header />
                 {children}
+                <Footer />
             </body>
         </html>
     );

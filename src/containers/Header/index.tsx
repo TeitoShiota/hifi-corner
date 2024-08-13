@@ -1,10 +1,11 @@
 import Nav from "@/components/Nav";
+import SearchField from "@/components/SearchField";
 
 export default function Header() {
     return (
         <header>
-            <h1>Header</h1>
             <Nav />
+            <SearchField />
         </header>
     );
 }

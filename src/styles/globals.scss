@@ -2,6 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+// @import 'tailwindcss/base'; //includes the base styles provided by Tailwind. 
+// body{
+//   @apply //then applies the base front style
+// }
+
+
 :root {
   /* --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -46,4 +53,20 @@ a {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+
+.searchField{
+  border: 3px solid white;
+  border-right: none;
+  padding: 5px;
+  height: 20px;
+  border-radius: 5px 0 0 5px;
+}
+
+.searchBtn{
+  border: white;
+  font-size: 20px;
+  background: white;
+  border-radius: 0 5px 5px 0;
 }
