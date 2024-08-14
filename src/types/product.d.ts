@@ -1,9 +1,9 @@
 type Product = {
-    colourVariants?: [{
-        id: number; // Unique ID for each colour variant
+    colorVariants?: [{
+        id: number; // Unique ID for each color variant
         name: string;
         hex: string;
-        price?: number; // Optional price field for colour variants
+        price?: number; // Optional price field for color variants
         stock?: number;
     }];
     id: number;
