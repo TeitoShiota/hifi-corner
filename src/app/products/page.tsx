@@ -1,10 +1,10 @@
-export default function Products() {
+import ProductList from "@/containers/Products/ProductList";
+
+export default function ProductsPage() {
     return (
         <main>
             <h1>Product</h1>
-            <p>
-                This is a simple Next.js app that demonstrates how to use the Next.js framework to build a web application.
-            </p>
+            <ProductList />
         </main>
     );
 }

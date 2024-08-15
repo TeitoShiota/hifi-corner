@@ -1,9 +1,6 @@
-import { ProductWithVariants, ProductWithoutVariants } from "@/classes";
+import { ProductsList } from '@/types/product';
 
-type Products = (ProductWithVariants | ProductWithoutVariants)[];
-
-
-export const products: Products = [
+export const products: ProductsList = [
     {
         "id": "5938471026",
         "name": "Auralic Aries G2.1 Streamer",
