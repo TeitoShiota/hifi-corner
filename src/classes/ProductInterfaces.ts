@@ -1,11 +1,11 @@
 // src/classes/ProductInterfaces.ts
 export interface IColorVariant {
     id: string;
-    name: string;
+    color: string;
     hex: string;
+    images: string[] | string | null;
     price: number;
     stock: number;
-    suffix: string;
 }
 
 export interface IBaseProduct {
@@ -17,7 +17,6 @@ export interface IBaseProduct {
 
 export interface IProductWithVariants extends IBaseProduct {
     colorVariants: IColorVariant[];
-    generateColorVariantId(colorVariant: IColorVariant): string;
 }
 
 export interface IProductWithoutVariants extends IBaseProduct {

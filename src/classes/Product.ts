@@ -3,19 +3,19 @@ import { IColorVariant, IBaseProduct, IProductWithVariants, IProductWithoutVaria
 
 class ColorVariant implements IColorVariant {
     id: string;
-    name: string;
+    color: string;
+    images: string[] | string | null;
     hex: string;
     price: number;
     stock: number;
-    suffix: string;
 
-    constructor(id: string, name: string, hex: string, price: number, stock: number, suffix: string) {
+    constructor(id: string, color: string, hex: string, price: number, stock: number, images: string[] | string | null) {
         this.id = id;
-        this.name = name;
+        this.color = color;
+        this.images = images;
         this.hex = hex;
         this.price = price;
         this.stock = stock;
-        this.suffix = suffix;
     }
 }
 
@@ -41,9 +41,6 @@ export class ProductWithVariants extends BaseProduct implements IProductWithVari
         this.colorVariants = colorVariants;
     }
 
-    generateColorVariantId(colorVariant: ColorVariant): string {
-        return `${this.id}-${colorVariant.suffix}`;
-    }
 }
 
 export class ProductWithoutVariants extends BaseProduct implements IProductWithoutVariants {

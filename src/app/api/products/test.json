@@ -1,0 +1,45 @@
+{
+    "products": [
+        {
+            "id": "5938471026",
+            "name": "Auralic Aries G2.1 Streamer",
+            "description": "Description of Auralic Aries G2.1 Streamer",
+            "category": "Digital Output",
+            "images": "http://localhost:3000/images/products/product.png",
+            "price": 4799,
+            "stock": 10
+        },
+        {
+            "id": "4827361940",
+            "name": "Auralic Aries G2.1 Streamer",
+            "description": "Description of Auralic Aries G2.1 Streamer",
+            "category": "Digital Output",
+            "colorVariants": [
+                {
+                    "id": "4827361940-black",
+                    "color": "Black",
+                    "hex": "#000000",
+                    "images": "http://localhost:3000/images/products/product.png",
+                    "price": 4799,
+                "stock": 4
+                },
+                {
+                    "id": "4827361940-silver",
+                    "color": "Silver",
+                    "hex": "#C0C0C0",
+                    "images": "http://localhost:3000/images/products/product.png",
+                    "price": 4799,
+                    "stock": 10
+                },
+                {
+                    "id": "4827361940-gold",
+                    "color": "Gold",
+                    "hex": "#FFD700",
+                    "images": "http://localhost:3000/images/products/product.png",
+                    "price": 4799,
+                    "stock": 1
+                }
+            ]
+        }
+    ]
+}

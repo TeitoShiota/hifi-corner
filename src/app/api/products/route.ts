@@ -1,7 +1,11 @@
 import { NextResponse } from "next/server"
 
+// Classes
+import { ProductWithVariants, ProductWithoutVariants } from "@/classes";
 
+// Data
 import { products } from './testData';
+
 
 
 export interface Request {
@@ -11,6 +15,8 @@ export interface Request {
 export interface Response {
     // Define the properties of the response object here
 }
+
+
 
 export async function GET(request: Request, res: Response): Promise<NextResponse> {
     return NextResponse.json(
