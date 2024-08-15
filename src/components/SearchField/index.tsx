@@ -8,6 +8,8 @@ export default function SearchField() {
             <button type="submit" className="searchBtn">
                 <Image
                     src={Search}
+                    // width={500}
+                    // height={500}
                     alt="Picture of the author"
                     />
             </button>

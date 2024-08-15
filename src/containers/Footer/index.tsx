@@ -41,11 +41,7 @@ export default function Footer() {
                 <Image
                     src={Cards}
                     alt="Picture of the author"
-
-                    style={{
-                        width: '10rem',
-                        height: 'auto',
-                      }}
+                    
                 />
 
                 <>                
