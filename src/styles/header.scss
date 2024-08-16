@@ -1,0 +1,48 @@
+@import 'color_variables.scss';
+
+header{
+    background-color: $hifi_black;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 2rem;
+
+        img{
+            width: 3.5rem;
+        }
+    }
+}
+
+.icon{
+     width: 1.5rem;
+}
+
+nav{
+    color: $hifi_white;
+    display: flex;
+    gap: 1rem;
+}
+
+.searchContainer{
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+
+.searchField{
+    border-radius: 5px 0 0 5px;
+  }
+
+.searchBtn{
+  border: none;
+  border-radius: 0px 5px 5px 0px;
+  img{
+      width: 1.3rem;
+      margin-right: 0.4rem;
+  }
+}
