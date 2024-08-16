@@ -1,11 +1,15 @@
+'use client'
+
 import Image from 'next/image'
 
-export default function ProductCardImage({ images }: { images: string[] | string | null }) {
+export default function ProductCardImage({ images }: { images: string }) {
     return (
-        <div className="productCardImage">
+        <div className="product-card__image">
             <Image
                 src={images}
-                alt="Picture of the author"
+                alt="Product image"
+                width={300}
+                height={300}
             />
         </div>
     )

@@ -1,7 +1,7 @@
-// src/classes/Product.ts
+// src/classes/Product.ts 
 import { IColorVariant, IBaseProduct, IProductWithVariants, IProductWithoutVariants } from './ProductInterfaces';
 
-class ColorVariant implements IColorVariant {
+export class ColorVariant implements IColorVariant {
     id: string;
     color: string;
     images: string[] | string | null;

@@ -1,34 +1,38 @@
 'use client';
 
-import Product from '@/app/products/[product_id]/page';
 import { useEffect, useState } from 'react';
 import Image from 'next/image';
 
-import { ProductsList } from '@/types/product';
+import { ProductsList, Product } from '@/types/product';
+import ProductCard from '@/components/Products/ProductCard';
 
+
+import './product-list.scss';
 
 export default function ProductList() {
 
     const [products, setProducts] = useState<ProductsList>([]);
 
+    const [loading, setLoading] = useState(true);
+
     useEffect(() => {
+        setLoading(true);
         fetch('/api/products')
             .then(res => res.json())
             .then(json => {
                 setProducts(json.products);
+                setLoading(false);
             });
     }, []);
 
-
+    if (loading) {
+        return <p>Loading...</p>;
+    }
 
     return (
-        <section>
-            <h1>Products</h1>
+        <section className='product-list'>
             {products.map(product => (
-                <div key={product.id}>
-                    <h2>{product.name}</h2>
-                    <p>{product.description}</p>
-                </div>
+                <ProductCard key={product.id} product={product} />
             ))}
         </section>
     );
