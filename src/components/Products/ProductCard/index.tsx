@@ -25,7 +25,7 @@ export default function ProductCard({ product }: { product: Product }) {
             <ProductCardImage images={productImage[0]} />
             <section className="product-card__content">
                 <h2 className="product-card__title">{product.name}</h2>
-                <p className="product-card__description">{product.category}</p>
+                <p className="product-card__category">{product.category}</p>
                 <p className="product-card__price">{`${'£'} ${productPrice}`}</p>
                 <button
                     className="product-card__button"
