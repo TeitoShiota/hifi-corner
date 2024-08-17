@@ -1,0 +1,56 @@
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 100dvh;
+    width: 100dvw;
+
+    color: white;
+}
+
+// Method 1 - Using the anchor property
+.anchor-button-1{
+    anchor-name: --anchor-button;
+
+    // Non essential styles
+    background-color: red;
+}
+
+.popover{
+    position-anchor: --anchor-button;
+    top: calc(anchor(bottom) + 10px); 
+    justify-self: anchor-center;
+
+    // Non essential styles
+    z-index: 10;
+    background-color: blue;
+
+}
+
+
+// Method 2 - Using the anchor property
+.cart{
+    position: relative;
+}
+
+.anchor-button-2{
+
+    background-color: rgb(9, 255, 0);
+}
+
+.cart-content{
+
+
+    background-color: rgb(229, 255, 0);
+
+    &:popover-open{
+        width: 200px;
+        height: 100px;
+        position: relative;
+        inset: 0;
+        margin: 0;
+        // right: 0;
+    }
+
+}
