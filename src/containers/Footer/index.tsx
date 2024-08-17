@@ -1,53 +1,77 @@
 import Link from 'next/link';
 import Image from 'next/image';
+import phone from '@/assets/icons/phone.svg';
+import cards from '@/assets/images/cards.png';
+import SoMe from '../SoMe';
 
-import Cards from '@/assets/images/cards.png';
+import facebook from '@/assets/icons/soMe/facebook.svg';
+import twitter from '@/assets/icons/soMe/twitter.svg';
+import instagram from '@/assets/icons/soMe/instagram.svg';
+import youtube from '@/assets/icons/soMe/youtube.svg';
+
+import '@/styles/footer.scss';
 
 export default function Footer() {
     return (
         <footer>
-            <section>
+            <section className="footerInfoContainer">
                 <nav>
-                    <Link href={'/shop'}>Home</Link>
-                    <Link href={'/about'}>Shop</Link>
-                    <Link href={'/contact'}>About Us</Link>
+                    <div>
+                        <Link href={'/shop'}>Home</Link>
+                        <Link href={'/about'}>Shop</Link>
+                        <Link href={'/contact'}>About Us</Link>
+                    </div>
+                    <div>
+                        <Link href={'/#'}>Returns & Refunds</Link>
+                        <Link href={'/#'}>Delivery</Link>
+                        <Link href={'/#'}>Privacy Policy</Link>
+                        <Link href={'/#'}>Term & Conditions</Link>
+                    </div>
                 </nav>
-                <ul>
-                    <li>Returns & Refunds</li>
-                    <li>Delivery</li>
-                    <li>Privacy Policy</li>
-                    <li>Term & Conditions</li>
-                </ul>
                 <ul>
                     <h3>Contact</h3>
                     <li>
                         <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
-                        <p>*PHONE* 0131 556 7901</p>
+                        <div className='phoneContact'>
+                            <Image
+                                src={phone}
+                                alt="Hi Fi Corner Logo"
+                            />
+                            <p>0131 556 7901</p>
+                        </div>
                     </li>
                     <li>
                         <p>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</p>
-                        <p>*PHONE* 01324 629 011</p>
+                        <div className='phoneContact'>
+                            <Image
+                                src={phone}
+                                alt="Hi Fi Corner Logo"
+                            />
+                            <p>01324 629 011</p>
+                        </div>
                     </li>
-                    <ul>
-                        <li>*</li>
-                        <li>*</li>
-                        <li>*</li>
-                        <li>*</li>
-                    </ul>
+                    <div className="soMeIcons">
+                        <SoMe href={"facebook.com"} svg={facebook} alt='Facebook'/>
+                        <SoMe href={"youtube.com"} svg={youtube} alt='Youtube'/>
+                        <SoMe href={"twitter.com"} svg={twitter} alt='Twitter'/>
+                        <SoMe href={"instagram.com"} svg={instagram} alt='Instagram'/>
+                    </div>
                 </ul>
             </section>
-            
-            <section>
+            <hr />
+            <section className='footerCredits'>
                 <Image
-                    src={Cards}
-                    alt="Picture of the author"
-                    
+                    src={cards}
+                    alt="Cards"
+                    style={{
+                        width: '10rem',
+                        height: 'auto',
+                    }}
                 />
-
-                <>                
+                <div id="footerText">                
                     <p>Hi Fi Corner (Edinburgh) Ltd is registered in Scotland. No: SC049298. Registered office: 2 Joppa Rd, Edinburgh EH15 2EU</p>
                     <p>Designed & Built by WU07 :) </p>
-                </>
+                </div>
             </section>
         </footer>
     );

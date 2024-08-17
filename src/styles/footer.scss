@@ -1,0 +1,82 @@
+@import 'color_variables.scss';
+@import 'font_variables.scss';
+
+
+footer{
+    background-color: $hifi_black;
+    color: $hifi_white;
+    padding: 1rem;
+
+
+    .footerInfoContainer{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        gap: 5rem;
+        padding: 2rem;
+
+        // > *{
+        //     flex: 1 1 50%;
+        // }
+
+        nav{
+            width: 60%;
+            display: flex;
+            gap: 2rem;
+            font-size: $text-l;
+            
+            div{
+                width: 50%;
+                display: flex;
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+
+        ul{
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+
+            h3{
+                font-size: $heading-xs;
+            }
+
+            li{
+                list-style: none;
+                p{
+                    padding-bottom: 1rem;
+                    font-size: $text-nl;
+                }
+            }
+        }
+    }
+}
+
+
+.phoneContact{
+    display: flex;
+    gap: 1rem;
+}
+
+.soMeIcons{
+    display: flex;
+    gap: 1rem;
+
+    img{
+        border: solid 0.1rem $hifi_white;
+        border-radius: 50px;
+        width: clamp(1rem, 2.5vw, 2rem); //min, preferred, max
+    }
+}
+
+.footerCredits{
+    padding: 0.3rem 1rem 1rem 1rem;
+}
+
+#footerText{
+    display: flex;
+    gap: 10rem;
+    font-size: $text-xs;
+}
