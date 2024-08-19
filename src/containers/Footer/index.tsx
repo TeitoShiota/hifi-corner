@@ -31,7 +31,7 @@ export default function Footer() {
                 <ul>
                     <h3>Contact</h3>
                     <li>
-                        <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
+                        <b>2 Joppa Rd, Edinburgh, EH15 2EU</b>
                         <div className='phoneContact'>
                             <Image
                                 src={phone}
@@ -41,7 +41,7 @@ export default function Footer() {
                         </div>
                     </li>
                     <li>
-                        <p>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</p>
+                        <b>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</b>
                         <div className='phoneContact'>
                             <Image
                                 src={phone}

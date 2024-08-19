@@ -48,6 +48,10 @@ a {
   min-height: 100dvh;
 }
 
+.spacing{
+  white-space: pre-line;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
