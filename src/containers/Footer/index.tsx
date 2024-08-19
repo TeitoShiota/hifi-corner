@@ -17,9 +17,9 @@ export default function Footer() {
             <section className="footerInfoContainer">
                 <nav>
                     <div>
-                        <Link href={'/shop'}>Home</Link>
-                        <Link href={'/about'}>Shop</Link>
-                        <Link href={'/contact'}>About Us</Link>
+                        <Link href={'/'}>Home</Link>
+                        <Link href={'/products'}>Shop</Link>
+                        <Link href={'/about'}>About Us</Link>
                     </div>
                     <div>
                         <Link href={'/#'}>Returns & Refunds</Link>

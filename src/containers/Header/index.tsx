@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Nav from "@/components/Nav";
 import SearchField from "@/components/SearchField";
 
@@ -13,11 +14,12 @@ export default function Header() {
     return (
         <header>
             <div>
-                <Image
-                src={Logo}
-                alt="Hi Fi Corner Logo"
-                sizes="100vw"
-                />
+                <Link href={'/'}>
+                    <Image
+                    src={Logo}
+                    alt="Hi Fi Corner Logo"
+                    />
+                </Link>
                 <Nav />
             </div>
 

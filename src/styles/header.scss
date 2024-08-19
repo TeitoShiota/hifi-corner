@@ -20,6 +20,10 @@ header{
         color: $hifi_white;
         display: flex;
         gap: 1rem;
+
+        a:hover {
+            font-weight: bold;
+        }
     }
 }
 

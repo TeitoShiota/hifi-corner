@@ -1,0 +1,29 @@
+@import 'color_variables.scss';
+@import 'font_variables.scss';
+
+.companyInfo{
+    display: flex;
+    background-color: $hifi_black;
+    color: $hifi_white;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    padding: 5rem 2rem 2rem 2rem;
+
+    h3{
+        font-size: $heading-s;
+        padding-bottom: 1rem;
+    }
+    .companyDescription{
+      width: 60%;
+      padding-right: 10rem;
+    }
+    .openingHours{
+        width: 40%;
+        padding-left: 5rem;
+        ul{
+            padding-bottom: 1rem;
+        }
+    }
+}
+
+
