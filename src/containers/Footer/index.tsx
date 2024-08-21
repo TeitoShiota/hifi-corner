@@ -22,10 +22,10 @@ export default function Footer() {
                         <Link href={'/about'}>About Us</Link>
                     </div>
                     <div>
-                        <Link href={'/#'}>Returns & Refunds</Link>
-                        <Link href={'/#'}>Delivery</Link>
-                        <Link href={'/#'}>Privacy Policy</Link>
-                        <Link href={'/#'}>Term & Conditions</Link>
+                        <Link href={'/faq'}>Returns & Refunds</Link>
+                        <Link href={'/faq'}>Delivery</Link>
+                        <Link href={'/faq'}>Privacy Policy</Link>
+                        <Link href={'/faq'}>Term & Conditions</Link>
                     </div>
                 </nav>
                 <ul>
