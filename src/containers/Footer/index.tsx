@@ -17,21 +17,21 @@ export default function Footer() {
             <section className="footerInfoContainer">
                 <nav>
                     <div>
-                        <Link href={'/shop'}>Home</Link>
-                        <Link href={'/about'}>Shop</Link>
-                        <Link href={'/contact'}>About Us</Link>
+                        <Link href={'/'}>Home</Link>
+                        <Link href={'/products'}>Shop</Link>
+                        <Link href={'/about'}>About Us</Link>
                     </div>
                     <div>
-                        <Link href={'/#'}>Returns & Refunds</Link>
-                        <Link href={'/#'}>Delivery</Link>
-                        <Link href={'/#'}>Privacy Policy</Link>
-                        <Link href={'/#'}>Term & Conditions</Link>
+                        <Link href={'/faq'}>Returns & Refunds</Link>
+                        <Link href={'/faq'}>Delivery</Link>
+                        <Link href={'/faq'}>Privacy Policy</Link>
+                        <Link href={'/faq'}>Term & Conditions</Link>
                     </div>
                 </nav>
                 <ul>
                     <h3>Contact</h3>
                     <li>
-                        <p>2 Joppa Rd, Edinburgh, EH15 2EU</p>
+                        <b>2 Joppa Rd, Edinburgh, EH15 2EU</b>
                         <div className='phoneContact'>
                             <Image
                                 src={phone}
@@ -41,7 +41,7 @@ export default function Footer() {
                         </div>
                     </li>
                     <li>
-                        <p>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</p>
+                        <b>44 Cow Wynd, Falkirk, Central Region, FK1 1PU</b>
                         <div className='phoneContact'>
                             <Image
                                 src={phone}
