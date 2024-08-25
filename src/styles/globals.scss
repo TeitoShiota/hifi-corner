@@ -44,9 +44,12 @@ a {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
+  // align-items: center;
   min-height: 100dvh;
+}
+
+.spacing{
+  white-space: pre-line;
 }
 
 @layer utilities {

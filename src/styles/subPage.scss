@@ -1,0 +1,52 @@
+@import 'color_variables.scss';
+@import 'font_variables.scss';
+
+.pageMain{
+    background-color: $hifi_light_grey;
+    padding: 1rem 1.5rem;
+    
+    h1{
+        font-size: $heading-l;
+        padding-bottom: 2rem;
+        color: $hifi_dark_grey;
+    }
+
+    section{
+        background-color: $hifi_white;
+        box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.253);
+        padding: 1rem;
+        h2{
+            font-size: $heading-s;
+        }
+    }
+}
+
+//FAQ
+.faqHeading{
+    font-size: $heading-s;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.faqText{
+    font-size: $text-nl;
+    padding-bottom: 0.5rem;
+}
+
+//About
+.aboutHeading2{
+    font-size: $heading-xxs;
+    font-weight: bold;
+    padding-top: 1rem;
+}
+
+.aboutHeading3{
+    font-size: $text-nl;
+    font-weight: bold;
+    color: $hifi_orange;
+}
+
+.aboutText{
+    font-size: $text-n;
+    padding-bottom: 0.5rem;
+}
