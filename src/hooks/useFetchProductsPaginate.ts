@@ -2,15 +2,21 @@ import useSWR from 'swr'
 import fetcherREST from '@/utils/fetcherREST'
 
 import { ProductsList } from '@/types/product';
-import { Suspense } from 'react';
 
+interface ProductsPaginate {
+    products: ProductsList;
+    pageIndex: number;
+    pageSize: number;
+    totalProducts: number;
+    totalPages: number;
+}
 
-export function useFetchProductsPaginate( page: number ): {
-    data: { products: ProductsList } ;
+export function useFetchProductsPaginate( page?: number ): {
+    data: ProductsPaginate;
     isLoading: boolean;
     isError: any;
     } {
-        const { data, error, isLoading } = useSWR( `/api/products/${page}`, fetcherREST,{
+        const { data, error, isLoading } = useSWR( `/api/products?pageIndex=${page}`, fetcherREST,{
             fallbackData: {
                 products: [] as ProductsList
             }
