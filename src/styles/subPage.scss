@@ -4,14 +4,19 @@
 .pageMain{
     background-color: $hifi_light_grey;
     padding: 1rem 1.5rem;
+
     
-    h1{
+    > h1{
         font-size: $heading-l;
         padding-bottom: 2rem;
         color: $hifi_dark_grey;
     }
 
-    section{
+    > section{
+        width: clamp(25rem, 90vw, 80rem); 
+        margin: 0 auto;
+
+
         background-color: $hifi_white;
         box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.253);
         padding: 1rem;
@@ -33,7 +38,13 @@
     padding-bottom: 0.5rem;
 }
 
-//About
+// About
+.aboutSection{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
 .aboutHeading2{
     font-size: $heading-xxs;
     font-weight: bold;
@@ -49,4 +60,17 @@
 .aboutText{
     font-size: $text-n;
     padding-bottom: 0.5rem;
+}
+
+.aboutInfo{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    section {
+        text-align: center;
+    }
+}
+
+.aboutInfoRight{
+    flex-direction: row-reverse;
 }

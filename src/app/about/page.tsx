@@ -10,7 +10,7 @@ export default function About() {
     return (
         <main className="pageMain">
             <h1>OUR HISTORY</h1>
-            <section>
+            <section className="aboutSection">
                 <AboutInfo
                     picture={history1} 
                     alt={'History1'}
@@ -31,6 +31,7 @@ export default function About() {
                         It's our aim to get the right product for you.
                         
                         Our experts are on hand to guide you through the differences between speakers, amplifiers and sources and provide simple solutions that suit your needs.`}
+                    right
                 />
                 <AboutInfo
                     picture={history3} 
@@ -55,6 +56,7 @@ export default function About() {
                         If you are looking for a product not found in our demonstration showrooms or our online site, don’t fret as we have access to hundreds of brands.
                         
                         One of our biggest pleasures of working in this industry is to see the smile on our customers’ faces when they finally hear and see the system of their dreams.   `}
+                    right
                 />
             </section>
         </main>
