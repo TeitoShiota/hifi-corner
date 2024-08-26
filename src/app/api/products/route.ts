@@ -14,7 +14,7 @@ export interface Response extends NextResponse {
 export async function GET(request: Request, response: Response): Promise<NextResponse> {
     // Get the query parameters from the request object
     const pageIndex = parseInt(request.nextUrl.searchParams.get('pageIndex') as string) || 1;
-    const pageSize = parseInt(request.nextUrl.searchParams.get('pageSize') as string) || 10;
+    const pageSize = parseInt(request.nextUrl.searchParams.get('pageSize') as string) || 9;
 
     if (isNaN(pageIndex) || pageIndex < 1) {
         return NextResponse.json({ statusCode: 400, statusText: 'Please provide a valid page number' }, { status: 400 });
