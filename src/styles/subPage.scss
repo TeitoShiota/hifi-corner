@@ -4,26 +4,30 @@
 .pageMain{
     background-color: $hifi_light_grey;
     padding: 1rem 1.5rem;
-
     
     > h1{
+        width: clamp(25rem, 90vw, 80rem); 
+        margin: 0 auto;
         font-size: $heading-l;
         padding-bottom: 2rem;
         color: $hifi_dark_grey;
+        font-weight: 600;
     }
 
     > section{
         width: clamp(25rem, 90vw, 80rem); 
         margin: 0 auto;
-
-
         background-color: $hifi_white;
         box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.253);
-        padding: 1rem;
+        padding: 1.5rem 2rem;
         h2{
             font-size: $heading-s;
         }
     }
+}
+
+.orange{
+    color: $hifi_orange;
 }
 
 //FAQ
@@ -73,4 +77,52 @@
 
 .aboutInfoRight{
     flex-direction: row-reverse;
+}
+
+//Contact
+.form{
+    display: flex;
+    flex-direction: column;
+
+    label{
+        font-size: $text-l;
+        font-weight: 600;
+    }
+
+    .inputField{
+        width: 70%;
+        padding: 0.4rem;
+        margin: 0.5rem 0;
+        background-color: $hifi_medium_grey;
+        font-size: $text-l;
+        box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+    }
+
+    .inputMessage{
+        width: 100%;
+        padding: 3rem;
+        margin: 0.5rem 0;
+        background-color: $hifi_medium_grey;
+        font-size: $text-l;
+        box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+    }
+
+    button{
+        width: 10rem;
+        border-radius: 0.3rem;
+        background-color: $hifi_orange;
+        color: $hifi_white;
+        font-size: $text-l;
+        padding: 0.5rem;
+        margin-top: 2rem;
+        margin-bottom: 3rem;
+        box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+    }
+}
+
+.affiliate-links{
+    padding-top: 1rem;
+    text-align: center;
+    font-size: $text-xl;
+    font-weight: 600;
 }
