@@ -19,10 +19,8 @@ import './product-list.scss';
 
 
 export default function ProductList() {
-    // const [pageIndex, setPageIndex] = useState(1 as number);
-    // const { data, isLoading, isError } = useFetchProductsPaginate(pageIndex);
-
-    const { data, isLoading, isError } = useFetchProducts();
+    const [pageIndex, setPageIndex] = useState(1 as number);
+    const { data, isLoading, isError } = useFetchProductsPaginate(pageIndex);
 
     if (isError) return <div>failed to load</div>
     // if (isLoading) return <div>loading...</div>
