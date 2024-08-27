@@ -100,15 +100,17 @@
 
     .inputMessage{
         width: 100%;
-        padding: 3rem;
+        height: 15vh; /* 15% of the viewport height */
+        padding: 0.4rem;
         margin: 0.5rem 0;
         background-color: $hifi_medium_grey;
         font-size: $text-l;
         box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+        resize: none;
     }
 
     button{
-        width: 10rem;
+        width: 8rem;
         border-radius: 0.3rem;
         background-color: $hifi_orange;
         color: $hifi_white;
@@ -117,6 +119,7 @@
         margin-top: 2rem;
         margin-bottom: 3rem;
         box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+        margin-left: auto
     }
 }
 
