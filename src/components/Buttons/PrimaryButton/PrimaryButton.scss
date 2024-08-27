@@ -1,0 +1,23 @@
+@import '@/styles/color_variables.scss';
+@import '@/styles/font_variables.scss';
+
+.primaryButton{
+    background-color: $hifi_orange;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: all 0.3s;
+    &:hover{
+        background-color: #0056b3;
+    }
+    &:active{
+        background-color: #004286;
+    }
+    &:disabled{
+        background-color: #b3b3b3;
+        cursor: not-allowed;
+    }
+}
