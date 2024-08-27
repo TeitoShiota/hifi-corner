@@ -6,6 +6,8 @@ import { Open_Sans } from "next/font/google"; // Import google font types from N
 import Header from "@/containers/Header";
 import Footer from "@/containers/Footer";
 
+// Contexts
+import { UserProvider } from "@/contexts/UserContext/UserContext";
 
 // Style imports
 import "@/styles/globals.scss"; // Import the global styles for the app.
@@ -26,11 +28,13 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
-            <body className={openSans.className}>
-                <Header />
-                {children}
-                <Footer />
-            </body>
+            <UserProvider>
+                <body className={openSans.className}>
+                    <Header />
+                    {children}
+                    <Footer />
+                </body>
+            </UserProvider>
         </html>
     );
 }
