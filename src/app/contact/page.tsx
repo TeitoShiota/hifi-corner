@@ -22,7 +22,7 @@ export default function contact() {
                     {/* <input type="submit" value="Submit"></input> */}
                 </form>
             </section>
-            <p className='affiliate-links'>Visit our sister companies <Link href="#" className='orange'>Home Sound</Link> and <Link href="#" className='orange'>The Movie Rooms</Link>part of the Hi-Fi Corner Group. </p>
+            <p className='affiliate-links'>Visit our sister companies <Link href="#" className='orange'>Home Sound</Link> and <Link href="#" className='orange'>The Movie Rooms</Link> part of the Hi-Fi Corner Group. </p>
         </main>
     );
 }
