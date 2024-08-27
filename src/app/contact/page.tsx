@@ -1,3 +1,6 @@
+'use client';
+
+import PrimaryButton from '@/components/Buttons/PrimaryButton';
 import '@/styles/subPage.scss';
 import Link from 'next/link';
 
@@ -15,7 +18,7 @@ export default function contact() {
                     <input type="text" className='inputField'/>
                     <label>Message <span className='orange'>*</span></label>
                     <textarea className='inputMessage'></textarea>
-                    <button>Submit</button>
+                    <PrimaryButton text="Submit" onClick={() => alert('hello world')} className="primaryButton__alignRight"/>
                     {/* <input type="submit" value="Submit"></input> */}
                 </form>
             </section>

@@ -2,22 +2,47 @@
 @import '@/styles/font_variables.scss';
 
 .primaryButton{
+    box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 3px 3px 0 rgba(0, 0, 0, 0.213);
+    width: 9rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
     background-color: $hifi_orange;
-    color: white;
+    color: $hifi_white;
+    font-size: $text-l;
     border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
+    padding: 0.6rem;
+    border-radius: 0.3rem;
+
+    &.primaryButton__alignLeft{
+        margin-right: auto;
+    }
+    &.primaryButton__alignRight{
+        margin-left: auto;
+    }
+    &.primaryButton__alignCenter{
+        margin-left: auto;
+        margin-right: auto
+    }
+
+    &.primaryButton__full{
+        width: 100%;
+    }
+
+    &.primaryButton__large{
+        width: 12rem;
+    }
+    
     cursor: pointer;
-    font-size: 16px;
-    transition: all 0.3s;
+    transition: all 0.2s;
     &:hover{
-        background-color: #0056b3;
+        box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.213);
+        background-color: $hifi_dark_grey;
     }
     &:active{
-        background-color: #004286;
+        background-color: $hifi_orange;
     }
     &:disabled{
-        background-color: #b3b3b3;
+        background-color: $hifi_medium_grey;
         cursor: not-allowed;
     }
 }
