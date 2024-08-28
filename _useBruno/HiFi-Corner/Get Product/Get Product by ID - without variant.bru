@@ -1,0 +1,15 @@
+meta {
+  name: Get Product by ID - without variant
+  type: http
+  seq: 2
+}
+
+get {
+  url: 127.0.0.1:3000/api/detail?productId=5938471026
+  body: none
+  auth: none
+}
+
+params:query {
+  productId: 5938471026
+}
