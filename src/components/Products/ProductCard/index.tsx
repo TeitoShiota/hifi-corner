@@ -1,5 +1,5 @@
-
 // Importing the required modules
+import Link from "next/link";
 
 
 // Importing the required types
@@ -21,17 +21,19 @@ export default function ProductCard({ product }: { product: Product }) {
     // eslint-disable-next-line no-console
     console.log(productImage);
     return (
-        <article className="product-card">
-            <ProductCardImage images={productImage[0]} />
-            <section className="product-card__content">
-                <h2 className="product-card__title">{product.name}</h2>
-                <p className="product-card__category">{product.category}</p>
-                <p className="product-card__price">{`${'£'} ${productPrice}`}</p>
-                <button
-                    className="product-card__button"
-                    type="button"
-                >add to cart</button>
-            </section>
-        </article>
+        <Link href={`/detail/${product.id}`}>
+            <article className="product-card">
+                <ProductCardImage images={productImage[0]} />
+                <section className="product-card__content">
+                    <h2 className="product-card__title">{product.name}</h2>
+                    <p className="product-card__category">{product.category}</p>
+                    <p className="product-card__price">{`${'£'} ${productPrice}`}</p>
+                    <button
+                        className="product-card__button"
+                        type="button"
+                        >add to cart</button>
+                </section>
+            </article>
+        </Link>
     )
 }
