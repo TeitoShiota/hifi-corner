@@ -1,5 +1,4 @@
 import { Product, ColorVariant } from '@/types/product';
-import { availableMemory } from 'process';
 
 // Type guards
 /**
