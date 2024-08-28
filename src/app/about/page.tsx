@@ -6,6 +6,8 @@ import history4 from "@/assets/images/history_4.png"
 
 import '@/styles/subPage.scss';
 
+import './styles.css';
+
 export default function About() {
     return (
         <main className="pageMain">

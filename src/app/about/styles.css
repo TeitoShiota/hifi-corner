@@ -1,0 +1,14 @@
+.aboutInfo {
+    container: aboutInfo / inline-size;
+    > section{
+        /* container: aboutInfoChild / inline-size; */
+        container-name: aboutInfoChild;
+        /* width: 100%; */
+    };
+};
+
+@container aboutInfoChild ( width > 400px){
+    .aboutInfo{
+        flex-direction: column !important;
+    }
+};
