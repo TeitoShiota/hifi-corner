@@ -19,7 +19,6 @@ export default function contact() {
                     <label>Message <span className='orange'>*</span></label>
                     <textarea className='inputMessage'></textarea>
                     <PrimaryButton text="Submit" onClick={() => alert('hello world')} className="primaryButton__alignRight"/>
-                    {/* <input type="submit" value="Submit"></input> */}
                 </form>
             </section>
             <p className='affiliate-links'>Visit our sister companies <Link href="#" className='orange'>Home Sound</Link> and <Link href="#" className='orange'>The Movie Rooms</Link> part of the Hi-Fi Corner Group. </p>

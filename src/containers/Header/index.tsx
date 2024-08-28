@@ -25,11 +25,14 @@ export default function Header() {
 
             <div>
                 <SearchField />
-                <Image
-                    src={User}
-                    alt="User icon"
-                    className="icon"
-                />
+                <Link href={'/login'}>
+                    <Image
+                        src={User}
+                        alt="User icon"
+                        className="icon"
+                    />
+                </Link>
+                
                 <Image
                     src={Cart}
                     alt="Cart icon"
