@@ -1,8 +1,10 @@
 'use client';
 
-import PrimaryButton from '@/components/Buttons/PrimaryButton';
-import '@/styles/subPage.scss';
 import Link from 'next/link';
+import PrimaryButton from '@/components/Buttons/PrimaryButton';
+
+import '@/styles/subPage.scss';
+import '@/styles/forms.scss';
 
 export default function contact() {
     return (
