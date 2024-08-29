@@ -72,7 +72,9 @@ export const products: ProductsList = [
                 "price": 4799,
                 "stock": 1
             }
-        ]
+        ],
+        "popular": true,
+        "popularity": 68
     },
     {
         "id": "5938271026",
@@ -90,7 +92,9 @@ export const products: ProductsList = [
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
-        "stock": 12
+        "stock": 12,
+        "popular": true,
+        "popularity": 90
     },
     {
         "id": "4827361942",
@@ -149,7 +153,9 @@ export const products: ProductsList = [
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
-        "stock": 0
+        "stock": 0,
+        "popular": true,
+        "popularity": 20
     },
     {
         "id": "4827361943",
@@ -231,7 +237,9 @@ export const products: ProductsList = [
                 "price": 4799,
                 "stock": 1
             }
-        ]
+        ],
+        "popular": true,
+        "popularity": 79
     },
     {
         "id": "5938471033",
@@ -249,7 +257,9 @@ export const products: ProductsList = [
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
-        "stock": 0
+        "stock": 0,
+        "popular": true,
+        "popularity": 55
     },
     {
         "id": "4827361945",
@@ -281,7 +291,9 @@ export const products: ProductsList = [
                 "price": 4799,
                 "stock": 1
             }
-        ]
+        ],
+        "popular": true,
+        "popularity": 50
     },
     {
         "id": "5938471035",
@@ -331,7 +343,9 @@ export const products: ProductsList = [
                 "price": 4799,
                 "stock": 1
             }
-        ]
+        ],
+        "popular": true,
+        "popularity": 24
     },
     {
         "id": "5938471037",
@@ -349,7 +363,9 @@ export const products: ProductsList = [
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
-        "stock": 0
+        "stock": 0,
+        "popular": true,
+        "popularity": 95
     },
     {
         "id": "4827361947",
@@ -399,7 +415,9 @@ export const products: ProductsList = [
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
-        "stock": 0
+        "stock": 0,
+        "popular": true,
+        "popularity": 39
     },
     {
         "id": "4827361948",
@@ -481,7 +499,9 @@ export const products: ProductsList = [
                 "price": 4799,
                 "stock": 1
             }
-        ]
+        ],
+        "popular": true,
+        "popularity": 84
     },
     {
         "id": "5938471043",

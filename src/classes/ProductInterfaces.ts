@@ -13,6 +13,8 @@ export interface IBaseProduct {
     name: string;
     description: string;
     category: string;
+    popular?: boolean;
+    popularity?: number;
 }
 
 export interface IProductWithVariants extends IBaseProduct {

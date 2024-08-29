@@ -24,6 +24,8 @@ class BaseProduct implements IBaseProduct {
     name: string;
     description: string;
     category: string;
+    popular?: boolean | undefined;
+    popularity?: number | undefined;
 
     constructor(id: string, name: string, description: string, category: string) {
         this.id = id;
