@@ -1,0 +1,23 @@
+@import '@/styles/color_variables.scss';
+@import '@/styles/font_variables.scss';
+
+h1{
+    width: clamp(25rem, 90vw, 80rem); 
+    // margin: 0 auto;
+    font-size: $heading-l;
+    padding-bottom: 2rem;
+    color: $hifi_dark_grey;
+    font-weight: 600;
+}
+
+.products-page{
+    display: flex;
+}
+
+.products-sort{
+    width: 20%;
+}
+
+.products-list{
+    width: 80%;
+}
