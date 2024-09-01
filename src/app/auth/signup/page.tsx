@@ -7,7 +7,7 @@ import '@/styles/subPage.scss';
 import '@/styles/forms.scss';
 import '@/styles/checkboxes.scss';
 
-export default function createAccount() {
+export default function Signup() {
     return (
         <main className="pageMain">
             <h1>CREATE AN ACCOUNT</h1>

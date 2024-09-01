@@ -6,7 +6,7 @@ import PrimaryButton from '@/components/Buttons/PrimaryButton';
 import '@/styles/subPage.scss';
 import '@/styles/forms.scss';
 
-export default function contact() {
+export default function Contact() {
     return (
         <main className="pageMain">
             <h1>GET IN TOUCH WITH US</h1>

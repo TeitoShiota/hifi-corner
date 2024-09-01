@@ -25,7 +25,7 @@ export default function Header() {
 
             <div>
                 <SearchField />
-                <Link href={'/login'}>
+                <Link href={'/auth/login'}>
                     <Image
                         src={User}
                         alt="User icon"

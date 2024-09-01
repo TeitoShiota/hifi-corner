@@ -4,7 +4,7 @@ import './PrimaryButton.scss';
 
 interface PrimaryButtonProps {
     text: string;
-    onClick: () => void;
+    onClick?: () => void;
     className?: string;
     disabled?: boolean;
 }
