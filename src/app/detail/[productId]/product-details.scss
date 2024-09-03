@@ -1,0 +1,52 @@
+@import '@/styles/color_variables.scss';
+@import '@/styles/font_variables.scss';
+
+main{
+    background-color: $hifi_light_grey;
+    padding: 1rem 1.5rem;
+
+    > h1{
+        width: clamp(25rem, 90vw, 80rem); 
+        margin: 0 auto;
+        font-size: $heading-l;
+        padding-bottom: 2rem;
+        color: $hifi_dark_grey;
+        font-weight: 600;
+    }
+
+    h3{
+        font-size: $heading-s;
+        font-weight: 600;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+}
+
+.product-details-section{
+    display: flex;
+}
+
+
+//Table
+
+table {
+    border-collapse: collapse;
+    width: 50%;
+    margin-bottom: 7rem;
+    font-size: $text-nl;
+
+    td, th {
+        text-align: center;
+        padding: 0.5rem;
+
+        &:first-child{ //applies only to the first td element
+            border-right: 1px solid $hifi_medium_dark_grey;
+            font-weight: bold;
+        }
+    }
+
+    tr:nth-child(odd) { //applies only to the odd tr elements
+        background-color: $hifi_medium_grey;
+    }
+}
+
