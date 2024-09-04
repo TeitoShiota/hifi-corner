@@ -20,7 +20,7 @@ export const products: ProductsList = [
                 "id": "4827361940-black",
                 "color": "Black",
                 "hex": "#000000",
-                "images": ["http://localhost:3000/images/products/product.png"],
+                "images": ["http://localhost:3000/images/products/product.png","http://localhost:3000/images/products/product.png", "http://localhost:3000/images/products/product.png"],
                 "price": 4799,
             "stock": 4
             },

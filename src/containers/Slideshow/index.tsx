@@ -24,7 +24,7 @@ export default function Slideshow( {images}: {images: string[] }) {
         return images.map((image, index) => ( //We're using the map function to render slides and dots.
             <div
                 key={index}
-                className={`mySlides fade ${index === slideIndex - 1 ? 'active' : ''}`} //We're using template literals to conditionally apply the active class to slides and dots.
+                className={`slides fade ${index === slideIndex - 1 ? 'active' : ''}`} //We're using template literals to conditionally apply the active class to slides and dots. (Added slides to the div that wraps each image.)   
             >
                 <Image 
                     src={image} 
@@ -46,7 +46,6 @@ export default function Slideshow( {images}: {images: string[] }) {
             />
         ));
     };
-    
 
     if (!images || images.length === 0) return null;
 

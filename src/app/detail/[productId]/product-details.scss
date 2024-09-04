@@ -24,6 +24,17 @@ main{
 
 .product-details-section{
     display: flex;
+
+    div{
+        h2{
+            font-size: $heading-s;
+            font-weight: 600;
+        }
+        p{
+            font-size: $text-nl;
+            font-weight: 600;
+        }
+    }
 }
 
 

@@ -1,10 +1,11 @@
 'use client';
 import { useFetchProductDetails } from "@/hooks/useFetchProductDetails";
 
-
 import { getProductImage, getProductPrice, getProductStock } from "@/lib/productsListLib"
 
 import Slideshow from "@/containers/Slideshow";
+
+import PrimaryButton from "@/components/Buttons/PrimaryButton";
 
 import './product-details.scss';
 
@@ -13,25 +14,35 @@ export default function Detail({ params }: { params: { productId: string } }) {
 
     const { data, isLoading, isError } = useFetchProductDetails(productId);
     console.log(data)
-
-    
     
     if (isLoading) return <p>Loading...</p>;
     if (isError) return <p>Error: {isError.message}</p>;
     
     const productImage = getProductImage(data.product);
 
-
     return (
         <main>
             <h1>PRODUCT</h1>
             <section className="product-details-section">
-
                 <Slideshow images={productImage} />
-
                 <div>
                     <h2>{data?.product.name}</h2>
                     <p>{data?.product.description}</p>
+
+                    <button></button>
+                    <button></button>
+                    <button></button>
+
+                    <div>
+                        <p></p>
+                        <p></p>
+                    </div>
+
+                    <div>
+                        <p>X</p>
+                        <PrimaryButton onClick={() => console.log('clicked')} className="primaryButton__large" text="Add to cart" />
+                    </div>
+
                 </div>
             </section>
 
