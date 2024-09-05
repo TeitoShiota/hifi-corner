@@ -6,7 +6,7 @@
     padding: 1rem 1.5rem;
     
     > h1{
-        width: clamp(25rem, 90vw, 80rem); 
+        width: clamp(25rem, 90dvw, 80rem); 
         margin: 0 auto;
         font-size: $heading-l;
         padding-bottom: 2rem;
@@ -15,7 +15,7 @@
     }
 
     > section{
-        width: clamp(25rem, 90vw, 80rem); 
+        width: clamp(25rem, 90dvw, 80rem); 
         margin: 0 auto;
         background-color: $hifi_white;
         box-shadow: 0px 0px 0px 0 rgba(0, 0, 0, 0.2), 0 5px 7px 0 rgba(0, 0, 0, 0.253);

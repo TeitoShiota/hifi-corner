@@ -20,7 +20,13 @@ main{
         padding-top: 4rem;
         padding-bottom: 2rem;
     }
+
+    >section{
+        width: clamp(25rem, 90dvw, 80rem); 
+        margin: 0 auto;
+    }
 }
+
 
 .product-details-section{
     display: flex;
@@ -33,10 +39,25 @@ main{
         p{
             font-size: $text-nl;
             font-weight: 600;
+            white-space: pre-line;
         }
     }
 }
 
+.product-status{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 0rem;
+}
+
+
+.detailVariantSelector_container{
+    display: flex;
+    gap: 1rem;
+    text-align: center;
+    padding: 2rem 0rem;
+}
 
 //Table
 
@@ -60,4 +81,3 @@ table {
         background-color: $hifi_medium_grey;
     }
 }
-

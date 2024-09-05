@@ -1,6 +1,10 @@
 @import '@/styles/color_variables.scss';
 @import '@/styles/font_variables.scss';
 
+.slideshow {
+    width: 100%;
+}
+
 .slideshow-container {
     display: flex;
     max-width: 1000px;

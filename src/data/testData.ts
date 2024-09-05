@@ -4,7 +4,7 @@ export const products: ProductsList = [
     {
         "id": "5938471026",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -13,7 +13,7 @@ export const products: ProductsList = [
     {
         "id": "4827361940",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -45,7 +45,7 @@ export const products: ProductsList = [
     {
         "id": "4827361941",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -79,7 +79,7 @@ export const products: ProductsList = [
     {
         "id": "5938271026",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -88,7 +88,7 @@ export const products: ProductsList = [
     {
         "id": "5938471027",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -99,7 +99,7 @@ export const products: ProductsList = [
     {
         "id": "4827361942",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -131,7 +131,7 @@ export const products: ProductsList = [
     {
         "id": "5938471028",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -140,7 +140,7 @@ export const products: ProductsList = [
     {
         "id": "5938471029",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -149,7 +149,7 @@ export const products: ProductsList = [
     {
         "id": "5938471030",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -160,7 +160,7 @@ export const products: ProductsList = [
     {
         "id": "4827361943",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -192,7 +192,7 @@ export const products: ProductsList = [
     {
         "id": "5938471031",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -201,7 +201,7 @@ export const products: ProductsList = [
     {
         "id": "5938471032",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -210,7 +210,7 @@ export const products: ProductsList = [
     {
         "id": "4827361944",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -244,7 +244,7 @@ export const products: ProductsList = [
     {
         "id": "5938471033",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -253,7 +253,7 @@ export const products: ProductsList = [
     {
         "id": "5938471034",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -264,7 +264,7 @@ export const products: ProductsList = [
     {
         "id": "4827361945",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -298,7 +298,7 @@ export const products: ProductsList = [
     {
         "id": "5938471035",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -307,7 +307,7 @@ export const products: ProductsList = [
     {
         "id": "5938471036",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -316,7 +316,7 @@ export const products: ProductsList = [
     {
         "id": "4827361946",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -350,7 +350,7 @@ export const products: ProductsList = [
     {
         "id": "5938471037",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -359,7 +359,7 @@ export const products: ProductsList = [
     {
         "id": "5938471038",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -370,7 +370,7 @@ export const products: ProductsList = [
     {
         "id": "4827361947",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -402,7 +402,7 @@ export const products: ProductsList = [
     {
         "id": "5938471039",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -411,7 +411,7 @@ export const products: ProductsList = [
     {
         "id": "5938471040",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -422,7 +422,7 @@ export const products: ProductsList = [
     {
         "id": "4827361948",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -454,7 +454,7 @@ export const products: ProductsList = [
     {
         "id": "5938471041",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -463,7 +463,7 @@ export const products: ProductsList = [
     {
         "id": "5938471042",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,
@@ -472,7 +472,7 @@ export const products: ProductsList = [
     {
         "id": "4827361949",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "colorVariants": [
             {
@@ -506,7 +506,7 @@ export const products: ProductsList = [
     {
         "id": "5938471043",
         "name": "Auralic Aries G2.1 Streamer",
-        "description": "Description of Auralic Aries G2.1 Streamer",
+        "description": `G2.1 is the next logical evolutionary step, resulting from a desire to improve upon the original G2 series. At AURALiC, we always work to create a new approach to digital music that pushes the boundaries of sonic quality. Incorporating state-of-the-art technologies and delivered with innovative features, G2.1 is built for ultimate levels of sonic performance. \n \nEvery G2.1 series component, including the ARIES G2.1, sports an all-new industrial design that’s engineered to set a new standard for sound quality, enhance the user experience, and look every bit as good as it sounds with its contemporary aesthetic. Offering features like a copper enclosure, a high-mass base, and an enhanced suspension system optimizes the sound of the ARIES G2.1 and ensures it is the most capable and feature-rich way to introduce streaming to your audio system that we’ve ever created.`,
         "category": "Digital Output",
         "images": ["http://localhost:3000/images/products/product.png"],
         "price": 4799,

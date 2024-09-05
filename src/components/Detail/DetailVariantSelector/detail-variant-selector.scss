@@ -1,0 +1,31 @@
+.detailVariantSelector__button{
+    height: 2.5rem;
+    width: 2.5rem;
+    border-radius: 50%;
+
+    &[data-active="true"]{
+        outline: 0.2rem;
+        outline-style: solid;
+        outline-color: black;
+        outline-offset: 0.2rem;
+    }
+    &::before{
+        content: attr(data-text);
+        display: block;
+        padding-top: clamp(100%, calc(2rem + 100%), 110% );
+    }
+}
+
+.black-gradient{
+    background: rgb(0, 0, 0);
+}
+
+.silver-gradient{
+    background: rgb(181,181,181);
+    background: linear-gradient(0deg, rgba(209,209,209,1) 0%, rgba(181,181,181,1) 20%, rgba(117,117,117,1) 100%); 
+}
+
+.gold-gradient {
+    background: rgb(247,207,69);
+    background: linear-gradient(0deg, rgba(255,230,143,1) 0%, rgba(247,207,69,1) 20%, rgba(148,118,15,1) 100%); 
+  }

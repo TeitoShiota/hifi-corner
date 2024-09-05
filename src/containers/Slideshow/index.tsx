@@ -50,7 +50,7 @@ export default function Slideshow( {images}: {images: string[] }) {
     if (!images || images.length === 0) return null;
 
     return (
-        <section>
+        <section className='slideshow'>
             <div className="slideshow-container">
                 <button className="prev" onClick={() => plusSlides(-1)}>&#10094;</button>
                 {renderSlides()}

@@ -1,5 +1,7 @@
 import { getProductStock } from '@/lib/productsListLib';
 
+import '../product-card.scss';
+
 interface ProductCardStockInfo {
     total: number;
     availability: {
