@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import Image from 'next/image';
 
 import { useFetchProductDetails } from "@/hooks/useFetchProductDetails";
 
@@ -13,9 +12,8 @@ import ProductCardStockInfo from "@/components/Products/ProductCard/ProductCardS
 import DetailAddToCart from "@/components/Detail/DetailAddToCart";
 import DetailVariantSelectorButton from "@/components/Detail/DetailVariantSelector";
 
-import Filter from '@/assets/icons/filter.svg';
-
 import './product-details.scss';
+import CompareButton from '@/components/Buttons/CompareButton';
 
 export default function Detail({ params }: { params: { productId: string } }) {
     const { productId } = params;
@@ -39,16 +37,9 @@ export default function Detail({ params }: { params: { productId: string } }) {
     return (
         <main>
             <h1>PRODUCT</h1>
-            <button className="filter-btn">
-                Compare
-                <Image
-                    src={Filter}
-                    alt="filter icon"
-                    className="filter"
-                />
-            </button>
+            <CompareButton productID={productId}/>
+
             <section className="product-details-section">
-                
                 <Slideshow images={productImage} />
                 <div>
                     <h2>{data?.product.name}</h2>
