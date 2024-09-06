@@ -29,8 +29,8 @@ export default function Slideshow( {images}: {images: string[] }) {
                 <Image 
                     src={image} 
                     alt="Product image" 
-                    width={300} 
-                    height={300} 
+                    width={1000} 
+                    height={1000} 
                 />
             </div>
         ));

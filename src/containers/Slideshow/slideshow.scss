@@ -2,13 +2,19 @@
 @import '@/styles/font_variables.scss';
 
 .slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     width: 100%;
+
 }
 
 .slideshow-container {
     display: flex;
-    max-width: 1000px;
-    margin: auto;
+    justify-content: center;
+    flex-wrap: nowrap;
+
 }
 
 .slides {

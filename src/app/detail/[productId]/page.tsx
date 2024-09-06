@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import Image from 'next/image';
 
 import { useFetchProductDetails } from "@/hooks/useFetchProductDetails";
 
@@ -11,6 +12,8 @@ import PrimaryButton from "@/components/Buttons/PrimaryButton";
 import ProductCardStockInfo from "@/components/Products/ProductCard/ProductCardStockInfo";
 import DetailAddToCart from "@/components/Detail/DetailAddToCart";
 import DetailVariantSelectorButton from "@/components/Detail/DetailVariantSelector";
+
+import Filter from '@/assets/icons/filter.svg';
 
 import './product-details.scss';
 
@@ -31,12 +34,21 @@ export default function Detail({ params }: { params: { productId: string } }) {
 
     const handleVariantChange = (variant: string) => {
         setActiveVariant(variant);
-      };
+    };
     
     return (
         <main>
             <h1>PRODUCT</h1>
+            <button className="filter-btn">
+                Compare
+                <Image
+                    src={Filter}
+                    alt="filter icon"
+                    className="filter"
+                />
+            </button>
             <section className="product-details-section">
+                
                 <Slideshow images={productImage} />
                 <div>
                     <h2>{data?.product.name}</h2>

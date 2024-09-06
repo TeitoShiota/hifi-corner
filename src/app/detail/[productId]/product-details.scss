@@ -28,8 +28,22 @@ main{
 }
 
 
-.product-details-section{
+.filter-btn{
     display: flex;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    font-size: $text-nl;
+
+    >.filter{
+        filter: invert(100%);
+    }
+}
+
+
+.product-details-section{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
 
     div{
         h2{
@@ -44,13 +58,13 @@ main{
     }
 }
 
+
 .product-status{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0.5rem 0rem;
 }
-
 
 .detailVariantSelector_container{
     display: flex;
