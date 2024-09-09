@@ -7,11 +7,11 @@ export async function POST(request: Request) {
     try {
         const { email, password } = await request.json();
         const result = await db.authenticate( email, password );
-        const {record, token} = result;
-        record.token = token;
-        cookies().set('pb_auth', db.client.authStore.exportToCookie());
+        const { session } = result;
+        const token = session?.access_token;
+        cookies().set('sb_auth', token);
 
-        return NextResponse.json(record);
+        return NextResponse.json(token);
     } catch (err: any) {
         return new Response(
             JSON.stringify({ error: err.message || err.toString() }),
