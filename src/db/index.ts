@@ -21,16 +21,25 @@ export class DatabaseClient {
         try {
             const result = await this.client.auth.signInWithPassword({ email, password });
             // If there is no token in the result, it means something went wrong
+            if (!result?.data?.session?.access_token) {
+                throw new Error("Invalid email or password");
+            }
             if (!result?.data?.user?.email) {
                 throw new Error("Invalid email");
             }
             if (!result?.data?.user?.id) {
-                throw new Error("Invalid email");
+                throw new Error("User not found");
             }
             return result.data;
-        } catch (err) {
-            console.error(err);
-            throw new Error("Invalid email or password");
+        } catch (err : any) {
+            if (err.message === "Invalid email") {
+                throw new Error('Invalid email');
+            }
+            if (err.message === "User not found") {
+                throw new Error('User not found');
+            }
+
+            throw new Error("Error authenticating user");
         }
     }
 
