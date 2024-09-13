@@ -2,8 +2,8 @@
 import { createContext, useContext, useState } from 'react';
 
 interface UserContextType {
-  user: string | null;
-  setUser: (user: string) => void;
+    user: string | null;
+    setUser: (user: string) => void;
 }
 
 const UserContext = createContext<UserContextType | undefined>(undefined);
