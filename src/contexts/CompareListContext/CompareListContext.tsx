@@ -34,6 +34,15 @@ export const CompareListProvider: React.FC<{ children: React.ReactNode }> = ({ c
     );
 };
 
+// export function useCompareListContext() {
+//     return useContext(CompareListContext);
+// };
+
+
 export function useCompareListContext() {
-    return useContext(CompareListContext);
-};
+    const context = useContext(CompareListContext);
+    if (!context) {
+    throw new Error('CompareListContext is not provided'); //This will throw an error if the CompareListContext is not provided, which will prevent the null error.
+    }
+    return context;
+}; //By adding the null check in the useCompareListContext hook, we can ensure that the context is always defined when we use it in our components.
