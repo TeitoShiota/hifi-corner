@@ -1,5 +1,7 @@
 'use client';
 
+import ColorSorter from "./ColorSortBy";
+
 export default function ProductsSortBy(){
 
     return(
@@ -25,22 +27,13 @@ export default function ProductsSortBy(){
                     </div>
                 </form>
                 
-                <form action="">
-                    <h3>Brand</h3>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                </form>
+
+
+                <ColorSorter/>
                 
+
+
+
                 <form action="">
                     <h3>Brand</h3>
                     <div>

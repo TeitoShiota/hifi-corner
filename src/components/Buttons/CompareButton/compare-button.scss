@@ -11,4 +11,8 @@
     >.filter{
         filter: invert(100%);
     }
+
+    &:hover{
+        filter: invert(42%);
+    }
 }

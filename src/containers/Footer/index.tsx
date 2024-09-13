@@ -9,7 +9,7 @@ import twitter from '@/assets/icons/soMe/twitter.svg';
 import instagram from '@/assets/icons/soMe/instagram.svg';
 import youtube from '@/assets/icons/soMe/youtube.svg';
 
-import '@/styles/footer.scss';
+import './footer.scss';
 
 export default function Footer() {
     return (

@@ -3,12 +3,13 @@
 
 h1{
     width: clamp(25rem, 90vw, 80rem); 
-    // margin: 0 auto;
     font-size: $heading-l;
     padding-bottom: 2rem;
     color: $hifi_dark_grey;
     font-weight: 600;
 }
+
+
 
 .products-page{
     display: flex;
@@ -16,8 +17,85 @@ h1{
 
 .products-sort{
     width: 20%;
+    padding: 1rem;
 }
 
 .products-list{
     width: 80%;
+}
+
+.sortBy-form{
+    background-color: $hifi_medium_grey;
+    display: flex;
+    flex-direction: column; 
+    width: 100%;
+    >h3{
+        font-size: $heading-xxs;
+        display: flex;
+        justify-content: space-between;
+        padding: 0.3rem 0.42rem 0.3rem 0.3rem;
+    }
+
+    >section{
+        box-shadow: inset 0 20px 20px -20px rgba(83, 83, 83, 0.213);
+        padding: 0.5rem 0rem;
+
+        >div{
+            display: flex;
+            justify-content: space-between;
+            padding: 0.3rem;
+
+            label{
+                font-size: $text-nl;
+            }
+        }
+    }
+}
+
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 1rem;
+    height: 1rem;
+    background-color: $hifi_white;
+    border-radius: 5rem;
+    cursor: pointer;
+    position: relative;
+
+    &:checked::before{ //content property only works on pseudo-elements, such as ::before 
+        content: "\2713"; //Unicode character for checkmark 
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-weight: bold;
+        color: $hifi_orange;
+    }
+}
+
+// .checkboxes{
+//     display: flex;
+//     gap: 0.7rem;
+//     font-size: $text-nl;
+//     padding-bottom: 0.5rem;
+
+//     &.checkboxes__spacing{
+//         padding-bottom: 1.5rem;
+//     }
+// }
+
+
+
+.arrow {
+    font-weight: bold;
+    transition: transform 0.1s ease-in-out;
+    display: inline-block;
+}
+
+.arrow.up {
+    transform: rotate(0deg);
+}
+
+.arrow.down {
+    transform: rotate(180deg);
 }

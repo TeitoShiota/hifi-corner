@@ -8,7 +8,7 @@ import Logo from '@/assets/icons/logo_sml.svg';
 import User from '@/assets/icons/user.svg';
 import Cart from '@/assets/icons/cart.svg';
 
-import '@/styles/header.scss';
+import './header.scss';
 
 export default function Header() {
     return (
