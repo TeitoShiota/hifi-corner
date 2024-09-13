@@ -1,5 +1,7 @@
 import { getProductStock } from '@/lib/productsListLib';
 
+import '../product-card.scss';
+
 interface ProductCardStockInfo {
     total: number;
     availability: {
@@ -44,7 +46,7 @@ export default function ProductCardStockInfo({ productStockInfo }: { productStoc
             <p>{
                 stockIcon.message
             }</p>
-            <svg width={'2rem'} height={'2rem'}>
+             <svg width={'1.25rem'} height={'1.25rem'} viewBox="0 0 24 24"> {/*We use the viewBox attribute to define the coordinate system of the SVG element. in this case we give it a width and height of 24 units, and then using the same cx and cy values as before. This will also center the circle within the SVG. */}
                 <circle cx="12" cy="12" r="12" fill={stockIcon.color} />
             </svg>
         </div>

@@ -1,0 +1,20 @@
+@import '@/styles/font_variables.scss';
+
+.detailAddToCart{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    div{
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        width: 30%;
+        p{
+            font-size: $text-nl;
+        }
+        button{
+            font-size: 2rem;
+        }
+    }
+}

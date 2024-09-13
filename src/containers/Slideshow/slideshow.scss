@@ -1,0 +1,79 @@
+@import '@/styles/color_variables.scss';
+@import '@/styles/font_variables.scss';
+
+.slideshow {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+
+}
+
+.slideshow-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+
+}
+
+.slides {
+    display: none;
+}
+
+.slides.active { //display is set to 'block' when the image is active, and 'none' when it's not.
+    display: block;
+}
+
+.prev, .next {
+    cursor: pointer;
+    width: auto;
+    color: $hifi_medium_dark_grey;
+    font-weight: bold;
+    font-size: 3rem;
+    transition: 0.3s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    background-color: transparent;
+    border: none;
+    padding: 0rem 2rem;
+
+    &:hover {
+        color: $hifi_grey;
+    }
+}
+
+.dots-container {
+    display: flex;
+    justify-content: center;
+    margin: 3rem 0rem;
+}
+
+.dot {
+    cursor: pointer;
+    height: 0.7rem;
+    width: 0.7rem;
+    margin: 0 0.2rem;
+    border: 1px solid $hifi_medium_dark_grey;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+
+    &.active{ //:active is a pseudo-class, which only applies when the element is being actively clicked or pressed, which is not the same as the .active class, which is what we are adding to the dot when it's the current slide.
+        background-color: $hifi_medium_dark_grey;
+    }
+
+    &:hover {
+        background-color: $hifi_medium_dark_grey;
+    }
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}

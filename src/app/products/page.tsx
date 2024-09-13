@@ -6,7 +6,7 @@ import '@/containers/Products/ProductsSortBy/products-sort-by.scss';
 export default function ProductsPage() {
     return (
         <main>
-            <h1>Product</h1>
+            <h1>PRODUCTS</h1>
             <div className="products-page">
                 <section className="products-sort">
                     <ProductsSortBy />

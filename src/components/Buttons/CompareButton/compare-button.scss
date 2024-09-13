@@ -1,0 +1,14 @@
+@import '@/styles/color_variables.scss';
+@import '@/styles/font_variables.scss';
+
+.filter-btn{
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    font-size: $text-nl;
+
+    >.filter{
+        filter: invert(100%);
+    }
+}

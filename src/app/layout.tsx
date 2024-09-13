@@ -8,6 +8,7 @@ import Footer from "@/containers/Footer";
 
 // Contexts
 import { UserProvider } from "@/contexts/UserContext/UserContext";
+import { CompareListProvider } from "@/contexts/CompareListContext/CompareListContext";
 
 // Style imports
 import "@/styles/globals.scss"; // Import the global styles for the app.
@@ -29,11 +30,13 @@ export default function RootLayout({
     return (
         <html lang="en">
             <UserProvider>
-                <body className={openSans.className}>
-                    <Header />
-                    {children}
-                    <Footer />
-                </body>
+                <CompareListProvider>
+                    <body className={openSans.className}>
+                        <Header />
+                        {children}
+                        <Footer />
+                    </body>
+                </CompareListProvider>
             </UserProvider>
         </html>
     );
