@@ -1,61 +1,42 @@
 'use client';
 
-export default function ProductsSortBy(){
+import { useState } from 'react';
+
+import './products-sort-by.scss';
+
+
+interface ProductsSortByOptions {
+    brand: [
+        {
+            id: string,
+            name: string
+        }
+    ],
+    color: [
+        {
+            id: string,
+            name: string
+        }
+    ],
+    price: [
+        {
+            id: string,
+            name: string
+        }
+    ],
+}
+
+export default function ProductsSortBy() {
+    const [sortByOptions, setSortByOptions] = useState({} as ProductsSortByOptions);
+
 
     return(
-        // <select>
-        //       <option value="someOption">Some option</option>
-        //       <option value="otherOption">Other option</option>
-        // </select>
-        <>
+        <form
+            className='products-sort'
+            onSubmit={(e) => e.preventDefault()}
+        >
             <h2>Sort by</h2>
-                <form action="">
-                    <h3>Brand</h3>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                </form>
-                
-                <form action="">
-                    <h3>Brand</h3>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                </form>
-                
-                <form action="">
-                    <h3>Brand</h3>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                    <div>
-                        <label>Steelseries</label>
-                        <input type="radio" className='inputField'/>
-                    </div>
-                </form>
-        </>
+
+        </form>
     )
 }

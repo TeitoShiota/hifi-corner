@@ -1,0 +1,12 @@
+.products-page{
+    display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+
+
+    > .products-sort{
+        width: clamp(10rem, 100%, 20rem);
+    }
+}
+
+
+// grid 
