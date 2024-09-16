@@ -1,0 +1,21 @@
+@import '@/styles/color_variables.scss';
+
+.cart-progress-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3rem;
+    height: 3rem;
+    background-color: $hifi_medium_grey;
+    border-radius: 0.3rem;
+
+    img{
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    &[data-highlighted='active']{
+        background-color: aquamarine;
+
+    }
+
+}
