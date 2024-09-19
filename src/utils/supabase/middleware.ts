@@ -1,11 +1,8 @@
 import { createServerClient } from '@supabase/ssr'
 import { NextResponse, type NextRequest } from 'next/server'
-import { useContext } from 'react'
 
-import {UserContext} from '@/contexts/UserContext/UserContext'
 
 export async function updateSession(request: NextRequest) {
-    const { setUser } = useContext(UserContext)
     let supabaseResponse = NextResponse.next({
         request,
     })
@@ -51,9 +48,6 @@ export async function updateSession(request: NextRequest) {
     }
 
     if (user) {
-        if (userContext !== user.name) {
-            setUserContext(user.name)
-        }
         // If the user is logged in, redirect them to the profile page
         if (
             request.nextUrl.pathname.startsWith('/auth/login') ||
