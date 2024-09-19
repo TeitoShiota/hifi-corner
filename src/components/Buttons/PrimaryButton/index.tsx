@@ -4,9 +4,10 @@ import './PrimaryButton.scss';
 
 interface PrimaryButtonProps {
     text: string;
-    onClick: () => void;
+    onClick?: () => void;
     className?: string;
     disabled?: boolean;
+    formAction?: (formData: FormData) => void;
 }
 
 /**
@@ -17,6 +18,7 @@ interface PrimaryButtonProps {
  * @param {string} className - Additional class names
  * @param {function} onClick - Click event handler
  * @param {boolean} disabled - Button disabled state
+ * @param {function} formAction - Form action handler
  * @returns {JSX.Element} - Button component
  * 
  * @example
@@ -32,12 +34,13 @@ interface PrimaryButtonProps {
  *      disabled
  * />
  */
-export default function PrimaryButton({text, className, onClick, disabled = false}: PrimaryButtonProps) {
+export default function PrimaryButton({text, className, onClick, disabled = false, formAction}: PrimaryButtonProps) {
     return (
         <button
             className={`primaryButton ${className}`}
             onClick={onClick}
             disabled={disabled}
+            formAction={ formAction ? formAction : undefined }
         >
             {text}
         </button>

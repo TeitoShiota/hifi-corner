@@ -1,7 +1,12 @@
 {
     "cSpell.words": [
         "Auralic",
+        "firstname",
         "hifi",
+        "lastname",
+        "pocketbase",
+        "signup",
+        "Supabase",
         "tailwindcss"
     ],
     "px-to-rem.px-per-rem": 16
