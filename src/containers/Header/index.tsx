@@ -33,11 +33,13 @@ export default function Header() {
                     />
                 </Link>
                 
-                <Image
-                    src={Cart}
-                    alt="Cart icon"
-                    className="icon"
-                />
+                <Link href={'/cart'}>
+                    <Image
+                        src={Cart}
+                        alt="Cart icon"
+                        className="icon"
+                    />
+                </Link>
             </div>
         </header>
     );
