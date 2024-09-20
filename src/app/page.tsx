@@ -1,5 +1,6 @@
 import '@/styles/homePage.scss';
 import '@/styles/globals.scss';
+import MostPopularProducts from '@/containers/MostPopularProducts';
 
 export default function Home() {
     return (
@@ -14,6 +15,10 @@ export default function Home() {
             />
 
             {/* popular products */}
+            <section className="mostPopularProducts">
+                <h2>Popular Products</h2>
+                <MostPopularProducts />
+            </section>
             
             <section className="companyInfo">
                 <div className='companyDescription'>
